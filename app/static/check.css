@@ -1,0 +1,38 @@
+body {
+    background-image: url('till.jpg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  
+    color: #333333;
+    
+  }
+  .rounded-button {
+    border-radius: 40px; /* Adjust the border-radius as needed for rounded corners */
+    background: darkgray;
+    text-decoration: none;
+
+  }
+  
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  

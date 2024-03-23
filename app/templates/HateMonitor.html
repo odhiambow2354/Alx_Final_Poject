@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Link to your custom CSS file -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='check.css') }}">
+
+<div class="container d-flex flex-column justify-content-center align-items-center text-center">
+    <!-- Centered button -->
+   <br>
+    
+ <button class="rounded-button"> <a  href="{{ url_for('main.index') }}"><h3 style="cursor: pointer; color: white; font-weight: bold; text-decoration: none;">Hate Free Online Society</h3></a> </button> 
+
+    <br><br><br><br> <!-- Line breaks -->
+    <h1 style="color: blue; font-weight: bold;">Powered By Artificial Intelligence</h1>
+    <br><br><br><br> <!-- Line breaks -->
+    <!-- Link to the Abstract with smooth scrolling -->
+    <button class="rounded-button" a href="#Abstract" class="btn btn-secondary btn-sm rounded-button"><h4 style="color: #ffffff;">Abstract</h4></button>
+</div>
+
+<div id="abstract" class="container text-center mt-4"><br><br>
+    <p style="font-size: 70; font-family: Times, serif; font-weight: bolder;">        
+        <link >The world is increasingly being connected through the digital realm, the vision of a Hate-Free Online Society powered by the capabilities of AI has never been more crucial. 
+        This vision transcends mere words; it embodies a profound commitment to fostering a cyber-environment where empathy, tolerance, and respect reign supreme. 
+        At its core, this vision is a resounding call for harnessing the incredible potential of AI to combat hate speech, discrimination, and prejudice, paving the way for an inclusive and harmonious digital universe. 
+        Through advanced AI algorithms, it seeks to proactively identify and prevent instances of hate speech, cyberbullying, and toxic behaviors, creating a safer space for all netizens. 
+        The promise of a Hate-Free Online Society, powered by AI, is one where every individual, regardless of their background or beliefs, can freely express themselves without fear, contributing to a global community built on the foundations of mutual understanding and shared respect. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000384872"> Read More</a></h4>
+
+
+        
+    </p>
+    
+</div>
+
+
+{% endblock %}
+
